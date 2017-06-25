@@ -7,12 +7,13 @@
   "author": "George Czabania <george@czabania.com>",
   "license": "MIT",
   "dependencies": {
-    "@mishguru/package": "^1.1.2"
+    "@mishguru/package": "^1.1.2",
+    "bluebird": "^3.5.0"
   },
   "scripts": {
     "build": "pkg-build",
     "lint": "pkg-lint",
-    "test": "pkg-test",
+    "test": "ava test",
     "coverage": "pkg-coverage"
   },
   "babel": {
